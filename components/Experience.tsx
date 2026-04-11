@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const experiences = [
     {
         title: "Engineer, IT Software",
@@ -10,8 +8,7 @@ const experiences = [
             "Working on the Drug and Alcohol Record Management application, designing and implementing logic for randomized drug testing across all fleet and transportation employees.",
             "Rewrote several legacy features, upgrading from MVC to the latest .NET and React stack for improved maintainability and performance.",
             "Contributed to the Pilot Hiring application by developing a feature to capture and filter pilots based on flying hours, streamlining candidate selection for HR.",
-        ],
-        logo: "/AA.png"
+        ]
     },
     {
         title: "Software Engineer 2",
@@ -25,8 +22,7 @@ const experiences = [
             "Integrated a third-party payment provider system with the next-generation POS for processing payments.",
             "Developed a service to execute commands for collecting logs or changing log levels at any level of the application hierarchy.",
             "Fixed several production-critical bugs, delivering hotfix DLLs within a day for immediate deployment.",
-        ],
-        logo: "/NCR.png"
+        ]
     },
 ]
 
@@ -39,13 +35,7 @@ export default function Experience() {
                     <div key={exp.title} className="border border-gray-700 rounded-xl p-6">
                         <div className="flex justify-between items-start mb-4">
                             <div className="flex items-center gap-4">
-                                <Image
-                                    src={exp.logo}
-                                    alt={exp.company}
-                                    width={50}
-                                    height={50}
-                                    className="object-contain mix-blend-screen"
-                                />
+
                                 <div>
                                     <h2 className="text-xl font-bold text-white">{exp.title}</h2>
                                     <p className="text-violet-400">{exp.company}</p>

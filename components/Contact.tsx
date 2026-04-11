@@ -6,7 +6,7 @@ export default function Contact() {
         <section id="contact" className="flex flex-col items-center justify-center min-h-screen px-6 py-20 text-center">
             <h1 className="text-5xl font-bold text-white mb-4">Let's Work Together</h1>
             <p className="text-gray-400 max-w-md mb-10">
-                I'm always interested in new opportunities and collaborations. Feel free to reach out.
+                Have an idea? Let’s bring it to life.
             </p>
             <div className="flex gap-4 mb-8">
                 <a href="mailto:saitarun2307pagudala@gmail.com" className="border border-gray-600 rounded-full p-4 text-gray-400 hover:border-violet-500 hover:text-violet-400 transition-colors duration-300">
