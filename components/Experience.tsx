@@ -5,7 +5,7 @@ const experiences = [
         title: "Engineer, IT Software",
         company: "American Airlines",
         duration: "March 2025 - Present",
-        location: "Remote",
+        location: "Hyderabad, India",
         tasks: [
             "Working on the Drug and Alcohol Record Management application, designing and implementing logic for randomized drug testing across all fleet and transportation employees.",
             "Rewrote several legacy features, upgrading from MVC to the latest .NET and React stack for improved maintainability and performance.",
