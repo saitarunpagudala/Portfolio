@@ -38,7 +38,7 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.6 }}
             >
                 <a href="#contact"><button className="bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 rounded-full transition-colors duration-300">Get in Touch</button></a>
-                <a href="#blog"><button className="border border-gray-600 hover:border-violet-500 text-white px-6 py-3 rounded-full transition-colors duration-300">Read my blog</button></a>
+                {/* <a href="#blog"><button className="border border-gray-600 hover:border-violet-500 text-white px-6 py-3 rounded-full transition-colors duration-300">Read my blog</button></a> */}
             </motion.div>
         </section>
     )
