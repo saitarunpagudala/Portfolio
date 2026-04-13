@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sai Tarun Pagudala - Portfolio",
   description: "My personal portfolio website showcasing my projects and skills.",
+   icons: {
+    icon: "/icon.png"
+  }
 };
 
 export default function RootLayout({
